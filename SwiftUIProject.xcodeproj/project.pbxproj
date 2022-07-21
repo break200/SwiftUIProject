@@ -14,6 +14,7 @@
 		2E481236275C3BF2000B7855 /* SwiftUIProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E481235275C3BF2000B7855 /* SwiftUIProjectTests.swift */; };
 		2E481240275C3BF2000B7855 /* SwiftUIProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E48123F275C3BF2000B7855 /* SwiftUIProjectUITests.swift */; };
 		2E481242275C3BF2000B7855 /* SwiftUIProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E481241275C3BF2000B7855 /* SwiftUIProjectUITestsLaunchTests.swift */; };
+		2E5DBC81288910E50081D9B1 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5DBC80288910E50081D9B1 /* MainView.swift */; };
 		5AA69C8C8D440BFC9E744C1B /* Pods_SwiftUIProject_SwiftUIProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9F4D9AEAF762B8EF3241236 /* Pods_SwiftUIProject_SwiftUIProjectUITests.framework */; };
 		A3F1F8F67561D16A94EE52E7 /* Pods_SwiftUIProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF52A2ECB521C05D761EFD38 /* Pods_SwiftUIProject.framework */; };
 		C8657DF2B2E85FAC738BF199 /* Pods_SwiftUIProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E5BD6CE5CBC2F4196DE25DE /* Pods_SwiftUIProjectTests.framework */; };
@@ -47,6 +48,7 @@
 		2E48123B275C3BF2000B7855 /* SwiftUIProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E48123F275C3BF2000B7855 /* SwiftUIProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIProjectUITests.swift; sourceTree = "<group>"; };
 		2E481241275C3BF2000B7855 /* SwiftUIProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2E5DBC80288910E50081D9B1 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		3E5BD6CE5CBC2F4196DE25DE /* Pods_SwiftUIProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUIProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		55C09EEF832A08D9372612A3 /* Pods-SwiftUIProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUIProject.release.xcconfig"; path = "Target Support Files/Pods-SwiftUIProject/Pods-SwiftUIProject.release.xcconfig"; sourceTree = "<group>"; };
 		5A9C552F2AC52D6933D9A9A2 /* Pods-SwiftUIProject-SwiftUIProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUIProject-SwiftUIProjectUITests.release.xcconfig"; path = "Target Support Files/Pods-SwiftUIProject-SwiftUIProjectUITests/Pods-SwiftUIProject-SwiftUIProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -113,6 +115,7 @@
 			children = (
 				2E481224275C3BF0000B7855 /* SwiftUIProjectApp.swift */,
 				2E481226275C3BF0000B7855 /* ContentView.swift */,
+				2E5DBC80288910E50081D9B1 /* MainView.swift */,
 				2E481228275C3BF1000B7855 /* Assets.xcassets */,
 				2E48122A275C3BF1000B7855 /* Preview Content */,
 			);
@@ -154,7 +157,6 @@
 				F871424B84022407AB27F43D /* Pods-SwiftUIProjectTests.debug.xcconfig */,
 				A5442DBEB016FDAB2BE87959 /* Pods-SwiftUIProjectTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -407,6 +409,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E481227275C3BF0000B7855 /* ContentView.swift in Sources */,
+				2E5DBC81288910E50081D9B1 /* MainView.swift in Sources */,
 				2E481225275C3BF0000B7855 /* SwiftUIProjectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
